@@ -169,8 +169,9 @@ h1, h2, h3, h4 {
 .hero h1 {
   color: #ffffff;
   font-size: clamp(1.9rem, 4.5vw, 2.9rem);
-  max-width: 720px;
+  max-width: 900px;
   margin: 0 auto 1rem;
+  text-wrap: balance;
 }
 
 .hero p {
