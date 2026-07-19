@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Bosch Home Inspections</title>
+  <meta name="description" content="Contact Bosch Home Inspections to schedule a home inspection in Northern Virginia. Call (202) 746-0823 or email mfsbosch@gmail.com.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Bosch Home Inspections<span>Northern Virginia</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="nav-cta" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact</h1>
+        <p>Ready to schedule, or have a question? Reach out directly — you'll hear back promptly.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-methods">
+          <div class="contact-card">
+            <h3>Phone</h3>
+            <a href="tel:+12027460823">(202) 746-0823</a>
+            <p>Call or text</p>
+          </div>
+          <div class="contact-card">
+            <h3>Email</h3>
+            <a href="mailto:mfsbosch@gmail.com">mfsbosch@gmail.com</a>
+            <p>Include the property address and your preferred dates</p>
+          </div>
+        </div>
+
+        <div class="detail-block">
+          <h2>Service Area</h2>
+          <p>Northern Virginia — including Fairfax, Arlington, Loudoun, and Prince William counties, Alexandria, Falls Church, Manassas, and surrounding communities. Not sure if we cover your area? Just ask.</p>
+        </div>
+
+        <div class="detail-block">
+          <h2>What to include when you reach out</h2>
+          <p>The property address, approximate square footage and age of the home if you know them, your closing or decision timeline, and any specific concerns you'd like evaluated.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Bosch Home Inspections</h4>
+          <p>Professional home inspections serving Northern Virginia.</p>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+12027460823">(202) 746-0823</a></li>
+            <li><a href="mailto:mfsbosch@gmail.com">mfsbosch@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Bosch Home Inspections. All rights reserved.</span>
+        <span>Virginia License # — pending</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

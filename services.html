@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Bosch Home Inspections</title>
+  <meta name="description" content="Home inspection services in Northern Virginia: buyer's inspections, pre-listing inspections, and specialty services from Bosch Home Inspections.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Bosch Home Inspections<span>Northern Virginia</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html" aria-current="page">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <h1>Services</h1>
+        <p>Every inspection is thorough, unbiased, and documented in a clear written report.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Standard Home Inspection</h2>
+        <p class="section-lede">A comprehensive visual evaluation of the home's structure and major systems — for buyers, sellers, and homeowners. The inspection covers:</p>
+        <ul class="checklist">
+          <li>Roof, gutters, and drainage</li>
+          <li>Exterior siding, trim, and grading</li>
+          <li>Foundation and structural components</li>
+          <li>Attic, insulation, and ventilation</li>
+          <li>Electrical system and panels</li>
+          <li>Plumbing supply, drains, and water heater</li>
+          <li>Heating and cooling systems</li>
+          <li>Interior walls, ceilings, floors, and windows</li>
+          <li>Doors, stairs, and railings</li>
+          <li>Garage and built-in appliances</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Inspection Types</h2>
+        <div class="grid grid-3">
+          <div class="card">
+            <h3>Buyer's Inspection</h3>
+            <p>A full pre-purchase evaluation so you understand the home's condition before closing — and can negotiate from an informed position.</p>
+          </div>
+          <div class="card">
+            <h3>Pre-Listing Inspection</h3>
+            <p>For sellers: identify issues before listing so they can be repaired or disclosed up front, keeping the sale on track.</p>
+          </div>
+          <div class="card">
+            <h3>New Construction &amp; Warranty</h3>
+            <p>Independent inspections of new builds — before drywall, at final walkthrough, or before the builder's warranty expires.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Additional Services</h2>
+        <p class="section-lede">The full lineup of specialty services is being finalized. Commonly requested add-ons are listed below — contact us to ask about availability.</p>
+        <div class="grid grid-3">
+          <div class="card">
+            <h3>Radon Testing</h3>
+            <p>Measurement of radon levels — recommended for homes in Northern Virginia, where elevated radon is common.</p>
+            <span class="card-note">Ask about availability</span>
+          </div>
+          <div class="card">
+            <h3>Termite / WDI Inspection</h3>
+            <p>Inspection for termites and other wood-destroying insects, often required for VA and FHA loans.</p>
+            <span class="card-note">Ask about availability</span>
+          </div>
+          <div class="card">
+            <h3>Sewer Scope</h3>
+            <p>Camera inspection of the main sewer line to check for root intrusion, blockages, and pipe damage.</p>
+            <span class="card-note">Ask about availability</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container">
+        <h2>Questions about a service?</h2>
+        <p>Get in touch — we're happy to talk through what your situation calls for.</p>
+        <a class="btn btn-primary" href="contact.html">Contact Us</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Bosch Home Inspections</h4>
+          <p>Professional home inspections serving Northern Virginia.</p>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+12027460823">(202) 746-0823</a></li>
+            <li><a href="mailto:mfsbosch@gmail.com">mfsbosch@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Bosch Home Inspections. All rights reserved.</span>
+        <span>Virginia License # — pending</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>
