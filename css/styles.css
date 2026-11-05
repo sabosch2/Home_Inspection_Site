@@ -284,6 +284,10 @@ h1, h2, h3, h4 {
   gap: 1.5rem;
 }
 
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
 }
@@ -366,7 +370,7 @@ h1, h2, h3, h4 {
   content: "✓";
   position: absolute;
   left: 0;
-  color: var(--color-accent-dark);
+  color: var(--color-text);
   font-weight: 700;
 }
 
@@ -545,6 +549,7 @@ h1, h2, h3, h4 {
     display: flex;
   }
 
+  .grid-2,
   .grid-3,
   .grid-4,
   .checklist,
