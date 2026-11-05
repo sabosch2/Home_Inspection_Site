@@ -7,15 +7,15 @@
 
 :root {
   /* Brand colors */
-  --color-primary: #16283c;      /* deep navy — headers, footer, headings */
-  --color-primary-light: #23405e;
+  --color-primary: #26282b;      /* charcoal: headers, footer, headings */
+  --color-primary-light: #3a3d42;
   --color-accent: #da7756;       /* warm terracotta — CTAs, highlights */
   --color-accent-dark: #c15f3c;
   --color-bg: #ffffff;
-  --color-bg-alt: #f4f6f8;       /* alternating section background */
-  --color-text: #2a3540;
-  --color-text-muted: #5b6a77;
-  --color-border: #dde3e8;
+  --color-bg-alt: #f4f4f3;       /* alternating section background */
+  --color-text: #2b2d30;
+  --color-text-muted: #5f6368;
+  --color-border: #e2e2e0;
 
   /* Typography */
   --font-heading: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -94,13 +94,13 @@ h1, h2, h3, h4 {
 }
 
 .logo img {
-  height: 36px;
+  height: 40px;
   width: auto;
 }
 
 @media (max-width: 640px) {
   .logo img {
-    height: 28px;
+    height: 32px;
     max-width: 62vw;
     object-fit: contain;
   }
@@ -336,7 +336,7 @@ h1, h2, h3, h4 {
   width: 100%;
   height: auto;
   border-radius: var(--radius);
-  box-shadow: 0 8px 24px rgba(22, 40, 60, 0.12);
+  box-shadow: 0 8px 24px rgba(30, 32, 35, 0.12);
 }
 
 @media (max-width: 720px) {
